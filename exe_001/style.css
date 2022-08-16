@@ -1,46 +1,58 @@
-body{
-    background-color: rgba(0, 0, 0, 0.801);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    margin: 0px;
-    color: #333333;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+p{
+    padding: 15px 10px;
 }
-header{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+body{
+    background-color: #FFFFFF;
     margin: 0px;
-    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.850);
     
 }
-#logo_png{
-    margin: 15px;
-    padding: 50px;
+header{
+    background-color: rgba(0, 0, 0, 0.950);
+    padding: 10px;
+}
+header img{
+    margin: 8px 0px 15px 159px;
 }
 main{
-    background-color: white;
-    margin: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+    background-color: #c0c0c02a;
+    margin: 0px 270px 0px 270px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0px 0px 2px black;
 }
-aside{
-    color: dimgray;
-    font-size: 10px;
+main h1{
+    padding-top: 15px;
+    margin: 0px;
+}
+section img{
+    width: 160px;
+    background-color: #5f5f5f;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+article{
+    margin-right: 100px;
 }
 section{
-    margin: 25px;
-    padding-bottom: 50px;
+    margin: 0px 120px;
 }
-#biografia{
-    padding-left: 280px;
-    padding-right: 280px;
-    text-indent: 10px;
+#referencia{
+    color: #575757;
+    font-size: 11px;
 }
 footer{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 1px;
-    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.950);
+    padding: 3px;
+    color: white;
     text-align: center;
+    font-size: 13px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
