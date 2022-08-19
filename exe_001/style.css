@@ -44,7 +44,7 @@ main{
 }
 #inicio img{
     background-color: #5f5f5f;
-    padding: 2px;
+    padding: 1px;
     border-radius: 5px;
     width: 160px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.486);
@@ -97,9 +97,10 @@ main li{
 #finalização a{
     text-decoration: none;
     color: black;
-    outline: 1px auto rgba(31, 31, 31, 0.219);
+    border: 1px solid rgba(31, 31, 31, 0.219);
     padding: 8px 15px;
     margin: 25px 8px 25px 10px;
+    border-radius: 5px;
 }
 #sim:hover{
     box-shadow: 5px 5px 15px #333333c9;
