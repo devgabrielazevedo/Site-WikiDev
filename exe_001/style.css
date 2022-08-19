@@ -1,39 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 p{
-    padding: 15px 10px;
+    padding: 5px;
+}
+h4{
+    text-indent:50px;
+    font-weight: 1000;
 }
 body{
     background-color: #FFFFFF;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.850);
-    
 }
 header{
     background-color: rgba(0, 0, 0, 0.950);
     padding: 10px;
 }
 header img{
-    margin: 8px 0px 15px 159px;
+    margin: 8px 0px 15px 520px;
+    min-width: 20px;
+    max-width: 1000px;
 }
 main{
     background-color: #c0c0c02a;
-    margin: 0px 270px 0px 270px;
     border-radius: 0px 0px 7px 7px;
     box-shadow: 0px 0px 2px black;
+    margin: 0px 220px 30px 220px;
+    padding-bottom: 20px;
 }
-main h1{
-    padding-top: 15px;
+#inicio{
+    text-align: center;
+    font-size: 14px;
+}
+#inicio h4{
+    margin-top: 7px;
+    padding-right: 50px;
+}
+#inicio h1{
+    padding-top: 25px;
     margin: 0px;
 }
-section img{
-    width: 160px;
+#inicio img{
     background-color: #5f5f5f;
     padding: 2px;
     border-radius: 5px;
-    margin-left: 10px;
+    width: 160px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.486);
+}
+#referencia{
+    color: #575757;
+    font-size: 9px;
+}
+#inicio strong{
+    color: black;
 }
 article{
     margin-right: 100px;
@@ -41,18 +62,60 @@ article{
 section{
     margin: 0px 120px;
 }
-#referencia{
-    color: #575757;
+section p{
+    text-indent: 25px;
+    font-size: 14px;
+}
+iframe{
+    background-color: #5f5f5f63;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px -1px 6px #5f5f5f63;
+}
+#final{
+    margin:30px 0px;
+    padding: 0px;
+}
+#finalização{
+    font-size: 12px;
+    margin: 40px 0px 10px 35px;
+}
+main li{
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-style: oblique;
+    font-weight: 600;
+}
+#finalização p{
+    text-align: end;
     font-size: 11px;
 }
+
+#caixas{
+    padding: 0px 25px;
+}
+#finalização a{
+    text-decoration: none;
+    color: black;
+    outline: 1px auto rgba(31, 31, 31, 0.219);
+    padding: 8px 15px;
+    margin: 25px 8px 25px 10px;
+}
+#sim:hover{
+    box-shadow: 5px 5px 15px #333333c9;
+}
+#não:hover{
+    box-shadow: 5px 5px 15px #333333c9;
+}
+
 footer{
     background-color: rgba(0, 0, 0, 0.950);
-    padding: 3px;
-    color: white;
+    padding: 7px;
+    color: rgba(255, 255, 255, 0.863);
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
 }
 footer a{
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.877);
 }
