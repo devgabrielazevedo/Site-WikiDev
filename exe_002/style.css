@@ -1,0 +1,10 @@
+table{
+    background-color: rgba(185, 182, 182, 0.178);
+    border-radius: 5px;
+}
+table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
