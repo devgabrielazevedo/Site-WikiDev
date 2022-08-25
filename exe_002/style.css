@@ -104,17 +104,17 @@ header a:hover{
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.267);
 }
 article{
-    background: white url(midia/homem_imagem.png) center left no-repeat fixed;
-    height: 500px;
+    background: url(midia/homem_imagem_edit.jpg) no-repeat fixed;
+    background-attachment:fixed;
+    height: 380px;
     width: 700px;
-    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.521);
     margin-top: 70px;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.521);
 }
 #texto_secundario{
-    position: absolute;
+    position: relative;
     left: 730px;
-    top: 920px;
-    
+    top: 150px;
 }
 #texto_secundario h1{
     padding-bottom: 20px;
@@ -134,8 +134,10 @@ article{
     border-radius: 25px;
     padding: 10px 23px;
     color: #3D3D3D;
-    position: absolute;
-    top: 170px;
-    right: 220px;
-    
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+#texto_terceiro{
+    height: 500px;
 }
