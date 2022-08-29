@@ -1,0 +1,26 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.753), white);
+    height: 100vh;
+    position: relative;
+}
+#telefone{
+    background:url(midia/frame-iphone.png) no-repeat;
+    width: 312px;
+    height: 625px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+iframe{
+    height: 600px;
+    width: 264px;
+    position: relative;
+    left: 25px;
+    top: 82px;
+}
