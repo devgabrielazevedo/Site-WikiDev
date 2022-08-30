@@ -18,9 +18,26 @@ main{
     transform: translate(-50%,-50%);   
 }
 iframe{
-    height: 600px;
+    height: 470px;
     width: 264px;
     position: relative;
-    left: 25px;
-    top: 82px;
+    left: 22px;
+    top: 80px;
+}
+#redes_sociais{
+    text-align: right;
+    padding-top: 140px ;
+}
+#redes_sociais img{
+    border-radius: 50%;
+    max-width: 50px;
+    margin: 7px 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+#redes_sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.678);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+    transform: translate(-3px,-3px);
+    transition: transform 0.3s,border 0.3s;
 }
