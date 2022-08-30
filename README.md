@@ -4,5 +4,5 @@
 
      Projeto Brainscompany(https://devgabrielazevedo.github.io/Html_e_Css/exe_002/)
 
-     Projeto Celular ()
+     Projeto Celular (https://devgabrielazevedo.github.io/Html_e_Css/exe_003/#)
  
