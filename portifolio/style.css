@@ -45,12 +45,47 @@ header img{
 nav{
     background-color: #64758C;
     text-align: center;
-    padding: 7px;
-
 }
 nav a{
     color: #0D0D0D;
     text-decoration: none;
-    padding: 7px;
+    display: none;
+}
+nav a:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#menu img{
+    max-width: 50px;
+}
+#menu img:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 2s;
+    transform: translate(2s);
+}
+main{
+    min-width: 400px;
+    margin: 30px;
+}
+main h1{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+main p{
+    padding: 15px;
+    font-size: 14px;
+    text-indent: 15px;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+main a:hover{
+    text-decoration: underline;
 }
 
