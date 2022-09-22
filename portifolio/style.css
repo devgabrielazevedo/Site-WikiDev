@@ -21,6 +21,9 @@
     font-weight: 500;
     font-size: 18px;
 }
+body{
+    margin: 20px;
+}
 header{
     background-color: #D9DADA;
     padding: 0px;
@@ -66,8 +69,15 @@ nav a:hover{
     transform: translate(2s);
 }
 main{
+    background-color: #BDBDBF;
+    margin: auto;
+    padding: 20px 10px;
     min-width: 400px;
-    margin: 30px;
+    max-width: 600px;
+}
+#imagem01 img{
+    max-width:400px;
+    max-height: 300px;
 }
 main h1{
     font-weight: bold;
