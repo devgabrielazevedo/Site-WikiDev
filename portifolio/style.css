@@ -23,13 +23,8 @@
     font-weight: bold;
     color: #21242C;
 }
-h1,h2,p{
-    margin: 5px;
-    text-indent: 15px;
-
-}
 h2{
-    font-size: 23px;
+    font-size: 24px;
 }
 p{
     font-size: 15px;
@@ -71,27 +66,28 @@ nav a{
     max-width: 50px;
 }
 #menu img:hover{
-    background-color: white;
-    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.100);
+    border-radius: 20%;
     margin: 5px;
     transition: 1s;
 }
 main{
     margin: auto;
     padding: 20px 15px;
-    min-width: 402px;
-    max-width: 900px;
+    min-width: 400px;
     text-align: center;
 }
 #texto_01{
-    background-color: violet;
+    background-color: rgba(238, 130, 238, 0.548);
 }
 #texto_01 h1{
-    font-size: 25px;
-    text-align:left;
-    position: relative;
-    left: 10%;
-    top: 10%;
+    font-size: 30px;
+    text-align:center;
+    min-width: 425px;
+}
+#texto_01 p{
+    font-size: 14px;
+    padding: 15px;
 }
 #texto_01 a:hover{
     text-decoration: underline;
@@ -100,37 +96,50 @@ main{
     text-align: center;
 }
 #imagem01 img{
-    min-width: 350px;
-    min-height: 200px;
-    max-width: 200px;
-    max-height: 200px;
-    border: 1px solid white;
+    width: 500px;
+    max-width: 400px;
+    height: 200px;
     border-radius: 2px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
 }
 #texto_02{
-    background-color: #1C76B8;
-    padding-bottom: 50px;
-    margin-top: 20px;
+    background-color: #1c77b8a4;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+#texto_02 h2{
+    margin-bottom: 15px;
 }
 .caixas{
     background-color: #E44D26;
     display: inline-block;
-    max-width: 130px;
+    max-width: 170px;
     text-align: center;
     padding: 50px 4px;
-    margin: 5px;
+    margin: 8px;
 }
 .caixas h2{
-    font-size: 18px;
+    font-size: 30px;  /* verificar esses aqui*/
 }
 .caixas p{
     font-size: 15px;
+}
+.caixas_textos p{
+    font-size: 12px;
+    margin-top: 10px;
+    text-indent: 15px;
 }
 #texto_03{
     background-color: #64758C;
 }
 #texto_04{
     background-color: #B89368;
+}
+footer{
+    background-color: #3e3e40b7;
+}
+#referencias p{
+    font-size: 10px;
+    padding: 10px;
 }
 
