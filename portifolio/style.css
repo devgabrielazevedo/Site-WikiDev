@@ -107,7 +107,7 @@ main{
     text-align: center;
     padding-top: 15px;
 }
-#imagem01 img{
+img{
     max-width: 400px;
     border-radius: 2px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
@@ -145,6 +145,11 @@ main{
 #texto_03 h2{
     font-size: 25px;
     margin-bottom: 25px;
+}
+#lista_01{
+    text-align: start;
+    padding-left: 600px;
+    min-width: 100px;
 }
 #texto_03 p{
     padding: 10px;
