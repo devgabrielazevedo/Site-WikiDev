@@ -11,12 +11,15 @@
 <body>
     <header>        
         <div id="html" class="logos">
-            <img src="midia/html.png" alt="html logo">
+            <a href="pag_extras/html.html"><img src="midia/html.png" alt="html logo"></a>
+            
         </div>
         <div id="css" class="logos">
-            <img src="midia/css.png" alt="css logo">
+            <a href="pag_extras/css.html">            <img src="midia/css.png" alt="css logo">
+</a>
         </div>
         <div id="javascript" class="logos">
+            <a href="pag_extras/javascript.html"></a>
             <img src="midia/javascript.png" alt="javascript logo">
         </div>
     </header>
@@ -31,59 +34,62 @@
     </nav>
     <main>
         <section>
-            <div id="texto_01">
+            <div id="texto_01" class="caixas_main">
                 <h1>Um site educacional para você finalmente aprender a programar</h1>
                 <p>
-                    Somos um site sem fins lucrativos organizado pelo estudante <a href="https://github.com/devgabrielazevedo" target="_blank">Gabriel de Azevedo </a>, cujo contem conteudos educacionais do nivel básico ao intermediario de programação.
+                    Somos um site sem fins lucrativos organizado pelo estudante <a href="https://github.com/devgabrielazevedo" target="_blank">Gabriel de Azevedo </a>, aqui você vai encontrar conteúdos educacionais do nivel básico ao intermediario de programação.
                 </p>
-                <div id="imagem01">
+                <div id="imagem_texto">
                     <img src="midia/laptop-3173613_1280.png" alt="computador">
                 </div>
             </div>
-            <article id="texto_02">
-                <h2>Que conteúdo vou aprender aqui?</h2>
+            <hr>
+            <article id="texto_02" class="caixas_main">
+                <h2>Qual conteúdo vou aprender aqui?</h2>
                 <div class="caixas">
-                    <p>HTML</p>
-                      <div class="caixas_textos">
-                            <p>A base de qualquer plataforma, o conteúdo.</p>
-                      </div> 
+                    <div class="caixas_texto">
+                        <h3><abbr title="HyperText Markup Language">HTML</abbr></h3>
+                                <p>O músculo do site, base de qualquer plataforma, o conteúdo.</p>
+                    </div>
                 </div>
                 <div class="caixas">
-                    <p>CSS</p>
-                        <div class="caixas_textos">
-                            <p>A estética da sua plataforma, a formatação e modelação.</p>
-                        </div>
+                    <div class="caixas_texto">
+                        <h3><abbr title="Cascading Style Sheets">CSS</abbr></h3>
+                                <p>A estética da sua plataforma, a formatação e modelação.</p>
+                    </div>
                 </div>
                 <div class="caixas">
-                    <p>JavaScript</p>
-                        <div class="caixas_textos">
-                            <p>Como o site deve performar, a interatividade.</p>
-                        </div>
+                    <div class="caixas_texto">
+                        <h3>JavaScript</h3>
+                                <p>A funcionalidade do site, como performar, a interatividade com o usuário.</p>
+                    </div>
                 </div>
             </article>
-            <article id="texto_03">
-                <h2>O Que é Html?</h2>
-            <p>A Linguagem de Marcação de Hipertexto tambem conhecida como HTML, é uma das linguagens de computador que compõe a maioria das páginas da internet e aplicativos.</p>
+            <article id="texto_03" class="caixas_main">
+                <hr>
+                <h2>O Que é HTML?</h2>
+            <p>A Linguagem de Marcação de Hipertexto também conhecida como HTML, é uma das linguagens que compõe a maioria das páginas da internet e aplicativos.</p>
             <p>Com ele nós podemos desenvolver vários usos, seja criando seções, parágrafos, tags e entre outros elementos.</p>
-            <p>Modelos que utilizam o HTML em sua formatação:</p>
+            <p id="lista_texto">Modelos que utilizam o <abbr title="HyperText Markup Language">HTML</abbr> em sua formatação:</p>
             <div id="lista_01">
                 <ul>
                     <li>Páginas Web</li>
                     <li>Aplicativos</li>
                     <li>Documentos</li>
+                </ul>
             </div>
-            </ul>
-            <p></p>
                     <img src="midia/programming-3170991_1280.png" alt="computador">
                 </div>
             </article>
-            <aside id="texto_04">
-                <h2><a href="dicas.html"></a>Dicas</h2>
-                <p>Nessa seção feitas especialmente com sites e plataformas que iram auxiliar na sua caminhada</p>
-                <p>Sites, aplicativos, plataformas e os famosos projetos que vão colocar seus conhecimentos em dias</p>
-                <div id="imagem01">
+            <aside id="texto_04" class="caixas_main">
+                <h2>O Que é CSS?</h2>
+                <p>O CSS, também conhecido como Cascading Style Sheets é uma linguagem de estilização. Portanto, fontes, cores e efeitos serão atribuídos. O CSS é responsável pela decoração do site, como uma maquiagem.</p>
                     <img src="midia/programming-3170992_1280.png" alt="computador">
-                </div>
+            </aside>
+            <aside id="texto_05" class="caixas_main">
+                <h2>E o JavaScript?</h2>
+                <p>O JavaScript entra no final, sendo o responsável pelas funcionalidades e comportamento do site. Sabe aqueles menus que abrem e fecham quando você clica? Então, esse é um bom exemplo da utilização do JavaScript.</p>
+                <hr>
             </aside>
         </section>
     </main>
